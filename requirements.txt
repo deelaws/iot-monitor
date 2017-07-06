@@ -1,7 +1,9 @@
 Flask==0.12.2
+Flask-SQLAlchemy==2.2
 Jinja2==2.9.6
 MarkupSafe==1.0
 PyYAML==3.12
+SQLAlchemy==1.1.11
 Werkzeug==0.12.2
 awscli==1.11.115
 botocore==1.5.78
@@ -10,6 +12,7 @@ colorama==0.3.7
 docutils==0.13.1
 itsdangerous==0.24
 jmespath==0.9.3
+psycopg2==2.7.1
 pyasn1==0.2.3
 python-dateutil==2.6.0
 rsa==3.4.2
