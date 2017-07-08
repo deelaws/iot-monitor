@@ -26,12 +26,12 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:12345qaz@localhost/souvu"
+    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://swaleed:123456789@localhost/LearnAws"
 
 
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:12345qaz@localhost/test_souvu"
+    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:234567@localhost/iot-moniotr-foo"
     WTF_CSRF_ENABLED = False
 
 class ProductionConfig(Config):
