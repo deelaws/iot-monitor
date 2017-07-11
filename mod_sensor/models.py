@@ -7,6 +7,13 @@ from mod_app.models import Base, IoTDevice, BaseIotData
 from mod_sensor.sensor_types import SensorType
 from mod_sensor.data_parsers import *
 
+
+'''
+User's ip address used for logging and monitoring.
+'''
+def remote_addr():
+    return request.remote_addr
+
 class Sensor(IoTDevice):
     __tablename__ = 'iot_sensor'
 
